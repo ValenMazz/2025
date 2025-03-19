@@ -3,8 +3,8 @@
 let añoNacimiento=2009
 let añoActual=2025
 
-alert ( ("mi edad es ") + (añoActual-añoNacimiento) )*/
-
+alert ( ("mi edad es ") + (añoActual-añoNacimiento) )
+*/
 /*
 let nombreAlumno= "valen"
 let aprobado= true
@@ -17,11 +17,16 @@ if (edad >= 17){
     alert("no podes ingresar")
 }
 */
+/*
+let notaExamen = 10
+let trabajoTp = true
 
-valor = 17
+let parrafo = document.querySelector('p')
 
-if (edad == 17){
-    alert ("podes ingresar")
-} else{
-    alert ("no podes ingresar")
+if ((notaExamen >= 6) && (trabajoTp == true)){
+    parrafo.textContent =  ("lo lograste")
+    
+}else {
+    parrafo.textContent =  ("no lo pasaste")
 }
+*/

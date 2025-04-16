@@ -1,32 +1,24 @@
-/*alert("holaa, todo bien??")
+let boton = document.getElementById('modoOscuro');
+let body = document.body;
+let tarjeta = document.querySelector('.tarjeta');
+let boton2 = document.querySelector ('.btn-info')
 
-let añoNacimiento=2009
-let añoActual=2025
+boton.onclick = function() {
 
-alert ( ("mi edad es ") + (añoActual-añoNacimiento) )
-*/
-/*
-let nombreAlumno= "valen"
-let aprobado= true
-let edad= 17
+    body.classList.toggle('modo-oscuro');
+    if (body.classList.contains('modo-oscuro')) {
+        boton.innerHTML = 'Modo Claro';
+        body.style.backgroundColor = 'black';
+        tarjeta.style.backgroundColor = '#fff';
 
-if (edad >= 17){
-    alert("podes ingresar")
-
-} else{
-    alert("no podes ingresar")
+    } else {
+        boton.innerHTML = '🌞';
+        body.style.backgroundColor = 'white';
+        tarjeta.style.backgroundColor = '#fff';
+    }
 }
-*/
-/*
-let notaExamen = 10
-let trabajoTp = true
 
-let parrafo = document.querySelector('p')
+boton2.onclick = function(){
 
-if ((notaExamen >= 6) && (trabajoTp == true)){
-    parrafo.textContent =  ("lo lograste")
     
-}else {
-    parrafo.textContent =  ("no lo pasaste")
 }
-*/

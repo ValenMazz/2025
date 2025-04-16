@@ -1,6 +1,28 @@
-h1{
-    font-size: medium;
-    color: brown;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+button{
+    border-radius: 0.3rem;
+    display: inline-block;
+    margin: 5px; 
 }
 
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    transition: all 0.5s
+}
+
+img{
+    width: 200px;
+    height: 250px;
+}
+
+.tarjeta{
+    width: 300px;
+    background-color: white;
+    border: 50rem;
+    color: black;
+    
+    
+}

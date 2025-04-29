@@ -18,7 +18,4 @@ boton.onclick = function() {
     }
 }
 
-boton2.onclick = function(){
 
-    
-}

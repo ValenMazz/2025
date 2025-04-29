@@ -6,16 +6,17 @@ button{
 
 body{
     text-align: center;
-    display: flex;
+    display:flex;
     justify-content: center;
     height: 100vh;
     align-items: center;
-    transition: all 0.5s
+    transition: all 0.7s
 }
 
 img{
     width: 200px;
     height: 250px;
+    
 }
 
 .tarjeta{
@@ -23,6 +24,15 @@ img{
     background-color: white;
     border: 50rem;
     color: black;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
     
-    
+}
+
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 0, 0, 0, 1rem;
 }
